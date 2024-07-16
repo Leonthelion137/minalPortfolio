@@ -1,0 +1,56 @@
+nav{
+    padding: 0vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(#55566B,#eeecec,#eeecec);
+    margin-right: 8vw;
+    margin-left: 8vw;
+    border-radius: 6vw;
+    margin: 0vw;
+}
+.logo{
+    font-size: 2vw;
+    font-family: lemon milk;
+    color:#556B6A;
+   margin-left: 3vw;
+}
+nav ul{
+    margin: 0vw;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin-right: 5vw;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#6B5F55;
+    font-size: 1.55vw;
+    font-family: lemon milk;
+    font-style: bold;
+   
+}
+.heading{
+    font-family: ledger;
+    font-size: 4vw;
+    margin: 0vw;
+    color: #556B6A;
+    text-align: center;
+    background-image: url(img/circle.gif) ;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:25vw ;
+   
+}
+.heaaddown{
+    font-family: ledger;
+    font-size: 1.5vw;
+    text-align: center;
+    margin-top: -5vw;
+    color:#6B5F55;
+   
+}
+.heaaddown h4{
+margin-bottom: -2vw;
+}

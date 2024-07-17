@@ -40,50 +40,88 @@ nav ul li a{
     background-repeat: no-repeat;
     background-position: center;
     background-size:20vw ;
+<<<<<<< HEAD
 }
 .heaaddown{
     font-family: ledger;
     font-size: 1.75vw;
+=======
+   
+}
+.heaaddown{
+    font-family: ledger;
+    font-size: 2vw;
+>>>>>>> f4164fb774f5759863495b6654316072c015bddb
     text-align: center;
     margin-top: -2vw;
     color:#6B5F55;
     display: block;
+<<<<<<< HEAD
 }
 .heaaddown p1 {
     font-size:2.95vw;   
+=======
+   
+}
+.heaaddown p1 {
+    font-size:4vw;
+    
+>>>>>>> f4164fb774f5759863495b6654316072c015bddb
 }
 .heaaddown p1::before,
 .heaaddown p1::after {
   content: '';
   display: inline-block;
+<<<<<<< HEAD
   width: 5vw; 
   height: 0.25vw; 
   background-color: #6e6e6e; 
  
 }
+=======
+  width: 50px; 
+  height: 3px; 
+  background-color: #6e6e6e; 
+ 
+}
+
+>>>>>>> f4164fb774f5759863495b6654316072c015bddb
 .mmedia{
     margin-top: 5vw;
     flex-direction: row;
     justify-content: space-evenly;
+<<<<<<< HEAD
     display: flex;   
+=======
+    display: flex;
+    
+>>>>>>> f4164fb774f5759863495b6654316072c015bddb
 }
 .mmedia a img {
     width: 4vw;
     height: auto;
 }
 .mmedia a:hover img {
+<<<<<<< HEAD
     pointer-events: painted;
+=======
+>>>>>>> f4164fb774f5759863495b6654316072c015bddb
     width: 6vw;
     height: auto;
     
 }
 .line {
     align-items: center;
+<<<<<<< HEAD
     margin-top: 8vw;
+=======
+    margin-top: 10vw;
+>>>>>>> f4164fb774f5759863495b6654316072c015bddb
   height: 0.7vw;
   width: 98vw;
   background-color: #D9D9D9;
 }
+<<<<<<< HEAD
 .mywork h1{
     font-family: ledger;
     font-size: 5vw;
@@ -131,3 +169,8 @@ nav ul li a{
         display: block;
     }
 }
+=======
+
+
+
+>>>>>>> f4164fb774f5759863495b6654316072c015bddb

@@ -1,4 +1,5 @@
-nav{
+
+    nav{
     padding: 0vw;
     display: flex;
     align-items: center;
@@ -24,104 +25,147 @@ nav ul li{
     margin-right: 5vw;
 }
 nav ul li a{
-    text-decoration: none;
-    color:#6B5F55;
+    color:#556B6A;
     font-size: 1.55vw;
     font-family: lemon milk;
-    font-style: bold;   
+    font-style: bold;  
+    text-decoration: none; 
 }
-.heading{
-    font-family: ledger ;
-    font-size: 3.5vw;
-    margin: 0vw;
-    color: #556B6A;
+nav ul li a:hover {
+    color: #fff; 
+    background-color: #556B6A; 
+    border-radius: 6vw; 
+    padding: 0.5vw; 
+}
+@media only screen and (max-width: 768px) {
+    .menu-icon {
+      display: block;
+      font-size: 2vw;
+      cursor: pointer;
+    }
+    .nav-links {
+      display: none;
+    }
+    .menu-toggle:checked + .nav-links {
+      display: block;
+    }
+  }
+/* @media only screen and (max-width: 768px) {
+    nav {
+      flex-direction: column; 
+    }
+    nav ul {
+      margin-top: 2vw; 
+    }
+    nav ul li {
+      margin-right: 0vw;
+    }
+    nav ul li a {
+      font-size: 2vw; 
+    }
+  } */
+.heading {
+    width: 100vw;
+    height: 20vw;
     text-align: center;
-    background-image: url(img/circle.gif) ;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size:20vw ;
-<<<<<<< HEAD
+     background-image: url('img/circle.gif');
+    background-repeat: no-repeat; 
+    background-position:center;
+    animation: back 5s infinite alternate; */
+  }
+
+  @keyframes back {
+    0% {
+        background-size: 0;
+    }
+
+    50%,100% {
+        background-size: 20vw;
+    }
+  }
+  .heading text {
+    
+    font-size: 7vw;
+    font-family: 'Ledger';
+    animation: stroke 5s infinite alternate;
+  }
+  @keyframes stroke {
+    0% {
+        fill: rgb(85, 107, 106,0);
+      stroke: #016d68;
+      stroke-dashoffset: 25%;
+      stroke-dasharray: 0 50%;
+      stroke-width: 1;
+    }
+    20% {
+        fill: rgb(85, 107, 106,0);
+      stroke:#30827e;
+      stroke-width: 0.5;
+    }
+    40% {
+        fill: rgb(85, 107, 106,0);
+      stroke: #437472;
+      stroke-width: 0.3vw;
+    }
+    60% {
+     
+      fill: #556B6A;;
+      stroke: #556B6A;
+      stroke-dashoffset: -25%;
+      stroke-dasharray: 50% 0;
+      stroke-width: 0vw;
+    }
+    100%{
+        fill: #556B6A;
+    }
+  }
+.heading h1{
+    margin: 0%;
 }
 .heaaddown{
     font-family: ledger;
     font-size: 1.75vw;
-=======
-   
-}
-.heaaddown{
-    font-family: ledger;
-    font-size: 2vw;
->>>>>>> f4164fb774f5759863495b6654316072c015bddb
     text-align: center;
-    margin-top: -2vw;
     color:#6B5F55;
     display: block;
-<<<<<<< HEAD
+    
+    padding: 2.5%;
 }
 .heaaddown p1 {
     font-size:2.95vw;   
-=======
-   
-}
-.heaaddown p1 {
-    font-size:4vw;
-    
->>>>>>> f4164fb774f5759863495b6654316072c015bddb
 }
 .heaaddown p1::before,
 .heaaddown p1::after {
   content: '';
   display: inline-block;
-<<<<<<< HEAD
   width: 5vw; 
   height: 0.25vw; 
   background-color: #6e6e6e; 
  
 }
-=======
-  width: 50px; 
-  height: 3px; 
-  background-color: #6e6e6e; 
- 
-}
-
->>>>>>> f4164fb774f5759863495b6654316072c015bddb
 .mmedia{
     margin-top: 5vw;
     flex-direction: row;
     justify-content: space-evenly;
-<<<<<<< HEAD
     display: flex;   
-=======
-    display: flex;
-    
->>>>>>> f4164fb774f5759863495b6654316072c015bddb
 }
 .mmedia a img {
     width: 4vw;
     height: auto;
 }
 .mmedia a:hover img {
-<<<<<<< HEAD
-    pointer-events: painted;
-=======
->>>>>>> f4164fb774f5759863495b6654316072c015bddb
     width: 6vw;
     height: auto;
-    
+    position:absolute ;
 }
 .line {
     align-items: center;
-<<<<<<< HEAD
     margin-top: 8vw;
-=======
-    margin-top: 10vw;
->>>>>>> f4164fb774f5759863495b6654316072c015bddb
-  height: 0.7vw;
-  width: 98vw;
-  background-color: #D9D9D9;
+    height: 0.7vw;
+    width: 98vw;
+    background-color: #D9D9D9;
 }
-<<<<<<< HEAD
+
 .mywork h1{
     font-family: ledger;
     font-size: 5vw;
@@ -169,8 +213,19 @@ nav ul li a{
         display: block;
     }
 }
-=======
+.myworkimgmain{
+    background-color: rgb(150, 148, 148,);
+            width: 100vw;
+            height: 95vw;
+}
 
-
-
->>>>>>> f4164fb774f5759863495b6654316072c015bddb
+.myworkimg{
+    padding: 5vw;
+    width: 40vw;
+    height: auto;
+    float:inline-start;
+}
+.myworkimg img {
+    width: 40vw;
+    height: auto
+}
